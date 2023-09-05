@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Events</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="nav">
+        <img class="logo" src="./google-developers-seeklogo.com.svg" alt="">
+        <h3>GDSC DJSCE</h3>
+    </div>
+    <div class="events">
+        <div><h2>Events</h2></div>
+        <div class="tab">
+            <button class="tablinks a" onclick="filterEvents('all')">All Events</button>
+            <button class="tablinks b" onclick="filterEvents('completed')">Completed Events</button>
+            <button class="tablinks c" onclick="filterEvents('upcoming')">Upcoming Events</button>
+        </div>
+        <div class="list">
+            <div class="event-card all completed">
+                <div class="event-image">
+                    <img src="./download.jpg" alt="Event 1">
+                </div>
+                <div class="event-details">
+                    <p class="event-name">DBMS Bootcamp</p>
+                    <p class="event-date">Date: June 15, 2023</p>
+                    <p class="event-time">Time: 2:00 PM - 5:00 PM</p>
+                    <p class="event-venue">Venue: Event Hall, City Center</p>
+                </div>
+            </div>
+    
+            <div class="event-card all upcoming">
+                <div class="event-image">
+                    <img src="./download.jpg" alt="Event 2">
+                </div>
+                <div class="event-details">
+                    <p class="event-name">Flutter</p>
+                    <p class="event-date">Date: July 10, 2023</p>
+                    <p class="event-time">Time: 3:30 PM - 6:30 PM</p>
+                    <p class="event-venue">Venue: Convention Center</p>
+                </div>
+            </div>
+    
+            <div class="event-card all completed">
+                <div class="event-image">
+                    <img src="./download.jpg" alt="Event 3">
+                </div>
+                <div class="event-details completed">
+                    <p class="event-name">CodeShastra</p>
+                    <p class="event-date">Date: August 5, 2023</p>
+                    <p class="event-time">Time: 1:00 PM - 4:00 PM</p>
+                    <p class="event-venue">Venue: Park Amphitheater</p>
+                </div>
+            </div>
+    
+            <div class="event-card all upcoming">
+                <div class="event-image">
+                    <img src="./download.jpg" alt="Event 4">
+                </div>
+                <div class="event-details">
+                    <p class="event-name">DevOps Session</p>
+                    <p class="event-date">Date: September 20, 2023</p>
+                    <p class="event-time">Time: 4:00 PM - 7:00 PM</p>
+                    <p class="event-venue">Venue: Community Center</p>
+                </div>
+            </div>
+    
+            <div class="event-card all upcoming">
+                <div class="event-image">
+                    <img src="./download.jpg" alt="Event 5">
+                </div>
+                <div class="event-details">
+                    <p class="event-name">AI/ML</p>
+                    <p class="event-date">Date: October 12, 2023</p>
+                    <p class="event-time">Time: 6:30 PM - 9:30 PM</p>
+                    <p class="event-venue">Venue: Arts Center</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <footer>
+        <h3> GDSC DJSCE | All rights reserved.</h3>
+    </footer>
+    <script src="./script.js"></script>
+</body>
+</html>

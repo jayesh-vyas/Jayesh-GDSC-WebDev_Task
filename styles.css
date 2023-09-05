@@ -1,0 +1,136 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "Poppins", sans-serif;
+}
+
+
+
+.logo{
+    width: 60px;
+    padding: 20px;
+}
+
+.nav{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #f1f1f1;
+}
+
+.nav h3{
+    font-size: 1.4rem;
+    color: black;
+}
+
+.events h2{
+    font-size: 2rem;
+    
+}
+
+.events{
+    padding: 10px;
+
+}
+
+.tab {
+    overflow: hidden;
+    padding-top: 25px;
+    padding-bottom: 25px;
+}
+
+.tab button {
+    background-color: white;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    padding: 10px 15px;
+    transition: 0.3s;
+}
+
+.tab .a:hover {
+    border-bottom: 5px solid red;
+}
+
+.tab .b:hover {
+    border-bottom: 5px solid blue;
+}
+
+.tab .c:hover {
+    border-bottom: 5px solid green;
+}
+
+
+
+
+.list{
+    display: flex;
+    flex-wrap: wrap;
+    
+}
+.events{
+    margin-top: 20px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.event-card {
+    border-top: 3px solid red;
+    border-left: 3px solid yellow;
+    border-right: 3px solid blue;
+    border-bottom: 3px solid green;
+    border-radius: 10px;
+    padding: 20px;
+    width: calc(20% - 20px);
+    min-width: 200px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+    margin: 20px;
+
+}
+.event-name{
+    font-weight: bolder;
+}
+
+.event-image {
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+    overflow: hidden;
+    margin: 0 auto 10px;
+}
+
+.event-image img {
+    width: 100%;
+    height: auto;
+}
+
+.event-details {
+    text-align: center;
+}
+
+.event-date {
+    font-size: 16px;
+    color: #333;
+}
+
+.event-time,
+.event-venue {
+    font-size: 14px;
+    color: #555;
+}
+
+footer{
+    padding: 40px;
+    background-color: #f1f1f1;
+    text-align: center;
+}
+
+@media (max-width: 583px) {
+
+    .event-card{
+        width: 500px;
+    }
+}
